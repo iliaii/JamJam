@@ -4,7 +4,7 @@ using UnityEngine;
 public class Gem : MonoBehaviour, IItem
 {
     public static event Action<int> OnGemCollect;
-    public int worth = 1;
+    public int worth = 10;
 
     public void Collect()
     {
